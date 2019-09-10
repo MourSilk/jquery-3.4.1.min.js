@@ -1,0 +1,5 @@
+$(document).ready(function() {
+    $('#example').DataTable( {
+        "ajax": 'https://raw.githubusercontent.com/MourSilk/Carton/master/theList.json'
+    } );
+} );
